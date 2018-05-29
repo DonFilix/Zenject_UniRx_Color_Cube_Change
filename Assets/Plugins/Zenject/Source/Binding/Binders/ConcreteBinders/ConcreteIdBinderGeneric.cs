@@ -1,3 +1,6 @@
+using System;
+using UnityEngine;
+
 namespace Zenject
 {
     public class ConcreteIdBinderGeneric<TContract> : ConcreteBinderGeneric<TContract>
@@ -13,6 +16,11 @@ namespace Zenject
         {
             BindInfo.Identifier = identifier;
             return this;
+        }
+
+        public object To<T>(Material material)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -514,7 +514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 283.65, y: 0}
+  m_AnchoredPosition: {x: 245.15, y: 4.5}
   m_SizeDelta: {x: 236.7, y: 311}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &293227882
@@ -648,7 +648,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Yellow
 --- !u!222 &411319467
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -722,7 +722,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Green
 --- !u!222 &427797456
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -900,7 +900,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &652008827
 GameObject:
@@ -1125,7 +1125,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Black
 --- !u!222 &915345453
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1401,51 +1401,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1264718444}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1329436719
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1329436721}
-  - component: {fileID: 1329436720}
-  m_Layer: 0
-  m_Name: GameObjectContext
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1329436720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1329436719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08eca9f7688a0a24685b89133b020c8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _installers: []
-  _installerPrefabs: []
-  _scriptableObjectInstallers: []
-  _autoRun: 1
-  _kernel: {fileID: 0}
---- !u!4 &1329436721
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1329436719}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1398987564
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,7 +1468,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Red
 --- !u!222 &1398987567
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1587,7 +1542,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Blue
 --- !u!222 &1416015483
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1681,7 +1636,7 @@ RectTransform:
   m_Children:
   - {fileID: 293227881}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1834,7 +1789,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 6.000006}
+  m_AnchoredPosition: {x: 0, y: 5.9999976}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1697299224
@@ -2137,7 +2092,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Ogrange
 --- !u!222 &2015546116
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2173,7 +2128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _installers: []
   _installerPrefabs: []
-  _scriptableObjectInstallers: []
+  _scriptableObjectInstallers:
+  - {fileID: 11400000, guid: 4a76d9d64e1c43d4aaa1a088bcd9df54, type: 2}
   _autoRun: 1
   _parentNewObjectsUnderRoot: 0
   _contractNames: []
