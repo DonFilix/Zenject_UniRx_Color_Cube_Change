@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - MyCube
+  - ColorPicker
   layers:
   - Default
   - TransparentFX

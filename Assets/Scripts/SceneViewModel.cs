@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Zenject;
 using UniRx;
@@ -11,7 +13,10 @@ public class SceneViewModel : MonoBehaviour
     public Material TestMaterial;
 
     // State-Change-Events from Model by ReactiveProperty
-    [Inject] private CubeModel _cubeModel;
+    [Inject]
+    private CubeModel _cubeModel;
+    [Inject]
+    public List<Material> Materials;
 
 
     void Start()
@@ -21,8 +26,8 @@ public class SceneViewModel : MonoBehaviour
         //// Rx supplies user events from Views and Models in a reactive manner 
         _cubeModel.BackgroundColor.Subscribe(_ =>
         {
-            Debug.Log(_cubeModel.BackgroundColor.Value + " " + DateTime.Now.ToShortTimeString());
-            MyCube.GetComponent<Renderer>().material = TestMaterial; 
+            var material = Materials.FirstOrDefault(x => x.color == _cubeModel.BackgroundColor.Value);
+            MyCube.GetComponent<Renderer>().material = material;
         });
     }
 }

@@ -11,3 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b5011637c4a50c40b640c00b84b75d1, type: 3}
   m_Name: ColorInstaller
   m_EditorClassIdentifier: 
+  Materials:
+  - {fileID: 2100000, guid: 7d3648a78ff0c41449c710dff77ebd90, type: 2}
+  - {fileID: 2100000, guid: 7ef52b8abc588d34f86ed4cf48ba520b, type: 2}
+  - {fileID: 2100000, guid: 771ff21e77d2fbd4aaef13c1f8d4bab4, type: 2}
+  - {fileID: 2100000, guid: de70b8bb86c7097498f764c10250df71, type: 2}
+  - {fileID: 2100000, guid: 97624d908176faa40b509fe130eabdb0, type: 2}
+  - {fileID: 2100000, guid: 8a746a72f11b11048ba25f5d5435141d, type: 2}
