@@ -6,9 +6,11 @@ using Zenject;
 [CreateAssetMenu(fileName = "GameSettingsInstaller", menuName = "Installers/GameSettingsInstaller")]
 public class GameSettingsInstaller : ScriptableObjectInstaller<GameSettingsInstaller>
 {
+        
 
    public class ChangeColor : MonoBehaviour
    {
+       
        public Material[] Materials;
        public Renderer Renderer;
 
@@ -18,14 +20,18 @@ public class GameSettingsInstaller : ScriptableObjectInstaller<GameSettingsInsta
        {
            Renderer.sharedMaterial = Materials [index];
        }
-       List<Color> colors= new List<Color>();
-       //colors.Add( new Color("blue"));
-       //colors.Add( new Color("yellow"));
-       //colors.Add( new Color("green"));
+       List<ChangeColor> colors = new List<ChangeColor>();
+       //colors.Add( new ChangeColor("blue"));
+       //colors.Add( new ChangeColor("yellow"));
+       //colors.Add( new ChangeColor("green"));
 
+       //List<string> colors = new List<string>();
+       //colors.Add("blue");
+       //colors.Add("yellow");
+       //colors.Add("green");
        // Material mt = new Material(GetComponent<Renderer>().sharedMaterial);
-       //mt.color = IColor;
-       //GetComponent<Renderer>().material = mt;
+       // mt.color = IColor;
+       // GetComponent<Renderer>().material = mt;
       
     }
    

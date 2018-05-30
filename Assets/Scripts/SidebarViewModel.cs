@@ -4,15 +4,21 @@ using UnityEngine;
 using Zenject;
 using UniRx;
 
-public class SidebarViewModel : MonoBehaviour {
+public class SidebarViewModel : MonoBehaviour
+{
 
+    public Material matred;
 	// Use this for initialization
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+	    List<string> colors = new List<string>();
+	    colors.Add("blue");
+	    colors.Add("yellow");
+	    colors.Add("green");
+
+    }
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }
